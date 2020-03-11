@@ -1,0 +1,15 @@
+#druid数据源
+spring:
+  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/second_kill?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: sk
+    password: sk
+
+#    druid:
+#      initial-size: 5
+#      min-idle: 5
+#      max-active: 10
+
